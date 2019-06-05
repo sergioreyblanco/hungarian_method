@@ -2,7 +2,7 @@
 
 Here is a very simple implementation of the Hungarian Method in R language. It is used to solve assignment problems where a set of elements have to be asigned to an amount of other elements. An example of this type of problem can be found in the following image (which corresponds to the `example1`, in the terminology of the code developed):
 
-![alt text](https://github.com/sergioreyblanco/hungarian_method/blob/master/example1.PNG)
+![alt text](https://github.com/sergioreyblanco/hungarian_method/blob/master/matrix_example1.PNG)
 
 The whole algorithm is implementated in the function `assignmentSolver`. It is divided in four well diferenced steps: caculation of the reduced matrix, the strikethrough crossed out of zeros, the update of the reduced matrix and the final gathering of the solution found. Moreover, this main function named `assignmentSolver` uses one auxiliary function called `solutionChecking`. Its usefulness is that of checking that the solution gathered is valid.
 
@@ -14,6 +14,6 @@ The function takes as an input parameter a representation of a graph in the way 
 
 Example matrices are given (located in the last part of the code after the functions). Thus, you can test the function and create new ones. The first example matrix will result in a graph like this one: 
 
-![alt text](https://github.com/sergioreyblanco/dijkstra_algorithm/blob/master/example1.png)
+![alt text](https://github.com/sergioreyblanco/hungarian_method/blob/master/example1.png)
 
 The code does not need any additional libraries to run, besides the classical R environment.
